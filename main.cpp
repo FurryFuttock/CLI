@@ -143,6 +143,7 @@ static void write_log(
     << (lf_after ? "\n" : ""); // If we want a line feed after, then we print it
 }
 
+// ReSharper disable once CppParameterMayBeConstPtrOrRef
 static void ex(std::ostream &os) {
   (void)os;
 
